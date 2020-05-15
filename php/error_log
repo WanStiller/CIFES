@@ -1,0 +1,60 @@
+[08-Oct-2019 15:40:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:119
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(65): Chat::getChats(0)
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 119
+[08-Oct-2019 15:41:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:102
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(61): Chat::getUsers()
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 102
+[08-Oct-2019 16:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:102
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(61): Chat::getUsers()
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 102
+[08-Oct-2019 16:10:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:119
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(65): Chat::getChats(0)
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 119
+[09-Oct-2019 19:53:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:119
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(65): Chat::getChats(0)
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 119
+[09-Oct-2019 19:53:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:102
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(61): Chat::getUsers()
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 102
+[09-Oct-2019 19:53:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:102
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(61): Chat::getUsers()
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 102
+[09-Oct-2019 19:53:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:119
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(65): Chat::getChats(0)
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 119
+[09-Oct-2019 19:53:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:102
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(61): Chat::getUsers()
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 102
+[09-Oct-2019 19:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:119
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(65): Chat::getChats(0)
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 119
+[09-Oct-2019 19:53:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:102
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(61): Chat::getUsers()
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 102
+[09-Oct-2019 19:53:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on boolean in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php:119
+Stack trace:
+#0 /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/ajax.php(65): Chat::getChats(0)
+#1 {main}
+  thrown in /home/lkwdx9x89umc/public_html/app.cifesonline.com/php/classes/Chat.class.php on line 119

@@ -1,0 +1,67 @@
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Acceso a Alumnos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="login-box">
+<!--<div class="login-logo">
+<a href="#"><b>Clases </b>en L&iacute;nea</a>
+</div>-->
+<!-- /.login-logo -->
+<div class="login-box-body">
+
+	<?php 
+$invalid=sha1(md5("contrasena y email invalido"));
+if (isset($_GET['invalid']) && $_GET['invalid']==$invalid) {
+echo "<div class='alert alert-danger alert-dismissible' role='alert'>
+<strong>Error!</strong> Contraseña o correo Electrónico invalido
+</div>";
+}
+$error=sha1(md5("cuenta inactiva"));
+if (isset($_GET['error']) && $_GET['error']==$error) {
+echo "<div class='alert alert-warning alert-dismissible' role='alert'>
+<strong>Error!</strong> Cuenta inactiva!
+</div>";
+}
+?>
+<!--<p class="login-box-msg">Iniciar Sesion</p>-->
+<form action="action/login.php" method="post">
+<div class="form-group has-feedback">
+<input type="text" name="email" class="form-control" placeholder="Correo electrónico" required="true">
+<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+</div>
+<div class="form-group has-feedback">
+<input type="password" name="password" class="form-control" placeholder="Contraseña" required="true">
+<span class="glyphicon glyphicon-lock form-control-feedback"></span>
+</div>
+<div class="row">
+<div class="col-xs-8">
+<!--<div class="checkbox icheck">
+<label>
+<input type="checkbox"> Recordar mi contraseña
+</label>
+</div>-->
+</div><!-- /.col -->
+<div style="text-align: center; margin-left: 4%;margin-bottom: 0.5em;">
+<button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+</div><!-- /.col -->
+<br>
+</div>
+</form>
+<!--<a href="#">Se te olvido la contraseña?</a><br>-->
+<a href="register.php" class="text-center">Convertirme en estudiante</a>
+</div><!-- /.login-box-body -->
+</div><!-- /.login-box -->
+      </div>
+      <div class="modal-footer">
+        <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>

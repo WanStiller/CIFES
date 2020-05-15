@@ -1,0 +1,32 @@
+<div class="">
+<div class="row mb-2">
+<div class="col-md-6">
+<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+<div class="col p-4 d-flex flex-column position-static">
+<!--<strong class="d-inline-block mb-2 text-success">Design</strong>-->
+<h3 class="mb-0">Consultas</h3>
+<!--<div class="mb-1 text-muted">Nov 11</div>-->
+<p class="mb-auto">¿Aún tienes dudas? Accede al consultorio online. Más de 2.350 especialistas responderán tus consultas.</p>
+<a href="#" class="stretched-link">Continue</a>
+</div>
+<div><!--class="col-auto d-none d-lg-block"-->
+<img src="https://www.clinicasesteticas.com.co/img/img_et/default/img_secciones_experiencias.jpg" style="width: 100%">
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+<div class="col p-4 d-flex flex-column position-static">
+<!--<strong class="d-inline-block mb-2 text-success">Design</strong>-->
+<h3 class="mb-0">Experiencias</h3>
+<!--<div class="mb-1 text-muted">Nov 11</div>-->
+<p class="mb-auto">¿Te harás un tratamiento o cirugía? No dejes de leer las experiencias de personas que ya se lo han hecho.</p>
+<a href="#" class="stretched-link">Continue</a>
+</div>
+<div><!--class="col-auto d-none d-lg-block"-->
+<img src="https://www.clinicasesteticas.com.co/img/img_et/default/img_secciones_experiencias.jpg" style="width: 100%">
+</div>
+</div>
+</div>
+</div>
+</div>

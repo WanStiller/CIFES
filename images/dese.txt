@@ -1,0 +1,29 @@
+<!--<div class="container">
+    <div class="row" style="padding-left:15px;padding-right: 15px">
+        <div class="col-md-12" style="background: rgba(6,129,151,1);
+background: -moz-linear-gradient(left, rgba(6,129,151,1) 0%, rgba(242,250,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(6,129,151,1)), color-stop(100%, rgba(242,250,255,1)));
+background: -webkit-linear-gradient(left, rgba(6,129,151,1) 0%, rgba(242,250,255,1) 100%);
+background: -o-linear-gradient(left, rgba(6,129,151,1) 0%, rgba(242,250,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(6,129,151,1) 0%, rgba(242,250,255,1) 100%);
+background: linear-gradient(to right, rgba(6,129,151,1) 0%, rgba(242,250,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#068197', endColorstr='#f2faff', GradientType=1 );margin-bottom: 15px;padding-left: 0px;padding-right: 0px;">
+    <div style="background:#e1f7f8;text-align: left;padding: 5px;color: #007e94;border-top: 10px solid #00a8b8;"><img src="images/mbricursorclick_99567.png" style="width: 30px;height: auto;margin-right: 15px;margin-top: -20px;"><span>
+    <?php
+    //if($_GET['catid']!=''){
+    //$_SESSION['catid']=intval($_GET['catid']);
+    //}
+    //$query=mysqli_query($con,"SELECT * from tblsubcategory WHERE SubCategoryId='".$_SESSION['catid']."'");
+    //while ($row=mysqli_fetch_array($query)) {
+    //$Subcategory = $row['Subcategory'];
+    //echo $Subcategory."</br>";
+    }
+    ?>
+    </span></div>
+    <div style="color: white;padding: 5px;">-->
+        <!--<h3>Lorem Ipsum Dolor Sit</h3>-->
+    <!--<h5>Variable curso <?php //echo $_SESSION['subCategoria'] ;?></h5>-->
+    <!--</div>
+    </div>
+    </div>
+</div>-->

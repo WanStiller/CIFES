@@ -1,0 +1,15 @@
+[08-Nov-2019 15:44:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 46
+[08-Nov-2019 15:44:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 46
+[08-Nov-2019 15:46:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 46
+[08-Nov-2019 15:46:03 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 46
+[08-Nov-2019 15:46:31 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 46
+[08-Nov-2019 15:46:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 46
+[08-Nov-2019 15:46:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 46
+[08-Nov-2019 21:16:52 UTC] PHP Warning:  require_once(geoplugin.class.php): failed to open stream: No such file or directory in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 44
+[08-Nov-2019 21:16:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'geoplugin.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 44
+[08-Nov-2019 21:18:01 UTC] PHP Warning:  require_once(geoplugin.class.php): failed to open stream: No such file or directory in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 36
+[08-Nov-2019 21:18:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'geoplugin.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 36
+[08-Nov-2019 21:18:30 UTC] PHP Warning:  require_once(geoplugin.class.php): failed to open stream: No such file or directory in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 36
+[08-Nov-2019 21:18:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'geoplugin.class.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/includes/sidebar.php on line 36
+[16-Nov-2019 15:25:29 UTC] PHP Notice:  Undefined index: nid in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/news-details.php on line 28
+[16-Nov-2019 19:40:25 UTC] PHP Notice:  Undefined index: token in /home/lkwdx9x89umc/public_html/app.cifesonline.com/blog/news-details.php on line 73

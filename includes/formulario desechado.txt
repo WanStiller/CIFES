@@ -1,0 +1,56 @@
+<!--<iframe src="http://www.saludybelleza.co/geos.php" frameborder="0" height="700"></iframe>-->
+	        <div class="login-box">
+                <?php 
+                        $invalid=sha1(md5("contrasena y email invalido"));
+                        if (isset($_GET['invalid']) && $_GET['invalid']==$invalid) {
+                            echo "<div class='alert alert-danger alert-dismissible fade in' role='alert'>
+                                <strong>Error!</strong> Contraseña o correo Electrónico invalido
+                                </div>";
+                        }
+                        $error=sha1(md5("cuenta inactiva"));
+                        if (isset($_GET['error']) && $_GET['error']==$error) {
+                            echo "<div class='alert alert-warning alert-dismissible fade in' role='alert'>
+                                <strong>Error!</strong> Cuenta inactiva!
+                                </div>";
+                        }
+                ?>
+            <!--<div class="login-logo">
+                <a href="#"><b>Clases </b>en L&iacute;nea</a>
+            </div>-->
+            <!-- /.login-logo -->
+            <div class="login-box-body">
+                <!--<p class="login-box-msg">Iniciar Sesion</p>-->
+                <form action="action/login.php" method="post">
+                    <div class="form-group has-feedback">
+                        <input type="text" name="email" class="form-control" placeholder="Correo electrónico">
+                        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <input type="password" name="password" class="form-control" placeholder="Contraseña">
+                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <!--<div class="checkbox icheck">
+                                <label>
+                                    <input type="checkbox"> Recordar mi contraseña
+                                </label>
+                            </div>-->
+                        </div><!-- /.col -->
+                        <div style="text-align: center; margin-left: 3%;margin-bottom: 0.5em;">
+                            <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+                        </div><!-- /.col -->
+                        <br>
+                    </div>
+                </form>
+
+                <a href="#">Se te olvido la contraseña?</a><br>
+                <a href="register.php" class="text-center">Registrarme y obtener descuentos</a>
+
+            </div><!-- /.login-box-body -->
+        </div><!-- /.login-box -->
+        <br>
+        <img src="images/btn_fbook.png" style="width: 100%; height: auto; max-width: 250px;margin-bottom: 2em">
+<!-- Buscador -->
+
+<!--<h5 class="card-header">Buscar</h5>-->

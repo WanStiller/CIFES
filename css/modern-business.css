@@ -1,0 +1,239 @@
+::-webkit-scrollbar{
+    width: 20px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0077aa; 
+    /*background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent)*/
+}
+
+
+
+/*@font-face {
+  font-family: "Pragma";
+  src: url("../fonts/Anjasmoro.ttf");
+}*/
+body {
+  /*font-family: "Arial";*/
+  /*padding-top: 54px;*/
+  font-size:0.9em;
+  background: white;
+}
+@media (min-width: 992px) {
+  body {
+    /*padding-top: 56px;*/
+  }
+}
+.carousel-item {
+  height: auto;
+  /*min-height: 300px;*/
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+/*Articulo de background video*/
+/*header {
+  position: relative;
+  background-color: black;
+  height: 100%;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('../images/1bbae5067ab8ebb08f2605c597eedfd6.jpg') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}*/
+/*Fin de video background*/
+
+
+
+/**/
+.esteticacorp a {font-size: 1.1em;}
+.esteticacorp a:hover{text-decoration: none;color: #00a7b7;}
+.esteticacorp a:visited{color: #ddd;}
+/**/
+.ampliar:hover {transition:all .5s ease-in-out;-webkit-transform:scale(1.05);transform:scale(1.05);z-index: 100000;}
+/**/
+.ampliar2:hover {transition:all .5s ease-in-out;-webkit-transform:scale(1.05);transform:scale(1.05);}
+/**/
+.rotar:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);
+transition:all .5s ease-in-out; 
+}
+.barrasocial {
+width: 100%;
+max-width: 110px;
+position: fixed;
+right: 1em;
+z-index: 2000;
+margin-top: -125px;
+}
+.barrasocial nav ul li{
+list-style:  none;
+padding: 5%;
+}
+.barrasocial nav ul li a > img {
+/*border: 5px solid white;*/
+width: 100%;
+border-radius: 50%;
+/*box-shadow: 0px 0px 30px 5px #111111;*/
+}
+.parpadealento {
+  animation-name: parpadeo;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+/**/
+/* Boton*/
+/** Switch
+ -------------------------------------*/
+.switch input {
+  position: absolute;
+  opacity: 0;
+}
+
+/**
+ * 1. Adjust this to size
+ */
+
+.switch {
+  display: inline-block;
+  font-size: 20px; /* 1 */
+  height: 1em;
+  width: 2em;
+  background: #BDB9A6;
+  border-radius: 1em;
+  margin-bottom: -0.3em;
+}
+
+.switch div {
+  height: 1em;
+  width: 1em;
+  border-radius: 1em;
+  background: #FFF;
+  box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+  -webkit-transition: all 300ms;
+     -moz-transition: all 300ms;
+          transition: all 300ms;
+}
+
+.switch input:checked + div {
+  -webkit-transform: translate3d(100%, 0, 0);
+     -moz-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+/*------------------------------------End*/
+
+.oculto {
+  display: none;
+}
+progress {
+  text-align: center;
+}
+progress:after {
+  content: attr(value)'%';
+}
+.iluminar:hover {
+    transition:all .4s ease-in-out;
+    filter: opacity(.5);
+}
+
+.enlace:hover {text-decoration: none; }
+
+
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  width: 90%;
+  max-width: 920px;
+  max-height: auto;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
